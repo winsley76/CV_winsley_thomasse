@@ -6,8 +6,9 @@
     box-sizing: border-box;
 }
 
-
-
+.photo_profil{
+    width: 200px;
+}
 
 .navbar-toggler-icon img{
     width: 30px;
@@ -737,6 +738,7 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
 @media (max-width:950px){
     .frameworks{
         margin: auto;
+        width: 90%;
     }
 }
 
@@ -817,11 +819,7 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
         width: 80px;
         height: 80px;
     }
-    
-    .logi_frame{
-        width: 100%;
-    }
-    
+     
 }
 
 
@@ -843,7 +841,6 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
     
     .informatiques h2{
       margin: auto;
-        width: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -887,10 +884,6 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
     
     }
 
-    .frameworks{
-        width: 400px;
-      }
-
     .item{
         width: 80px;
         height: 80px;
@@ -907,7 +900,7 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 80%;
         margin: auto;
     }
 
@@ -927,6 +920,7 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
       .frameworks{
         display: flex;
         justify-content: center;
+        width: 90%;
         }
   
       .item{
@@ -939,6 +933,42 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
       }
 }
 
+@media (max-width: 359px ){
+
+    .logi_frame h2{
+        margin-top: 80px;
+    }
+    .container_exp h1{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 337px){
+    
+    .container_exp h1 {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 374px ){
+    .frameworks{
+        width: 100%;
+        }
+
+}
+
+@media (max-width: 450px){
+
+    .comp_dev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
 /*       RESPONSIVE FRAMEWORKS    */
 
 @media (max-width: 950px ){
@@ -948,6 +978,7 @@ a:hover .l_linkedin2, a:hover .l_siteweb2, a:hover .l_fb2{
         margin: auto;
         position: relative;
         top: 350;
+        width: 80%;
     }
 
     .logi_frame h2{
@@ -1700,7 +1731,7 @@ input:focus {
         position: none;
         margin-left: 0;
         margin-top: 30px;
-        width: 90%;
+        width: 87%;
         margin-top: 150px;
         height: 150;
         display: flex;
@@ -1790,8 +1821,8 @@ input:focus {
     }
 
     .l_linkedin2, .l_siteweb2, .l_fb2{
-         width: 20px;
-         height: 20px;
+         width: 17px;
+         height: 17px;
          padding: 5px;
          border: 1px solid #F0F0F0;
          margin: 0px 3px;

@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-.photo_profil{
-    width: 200px;
-}
-
 .navbar-toggler-icon img{
     width: 30px;
 }
@@ -117,7 +113,7 @@ header{
 }
 /*     PROFIL      */
 
-.container img{
+/*.container img{
     position: absolute;
     z-index: 1;
     width: 250px;
@@ -125,7 +121,7 @@ header{
     border-radius: 50%;
     border: solid 10px #2DEFCA;
     margin-top: 70px;
-}
+}*/
 
 .profil{
     position: absolute ;
@@ -140,7 +136,7 @@ header{
     text-align: center;
     width: 350px;
     height: 350px;
-    padding: 150px 20px 0px 20px
+    padding: 100px 20px 0px 20px
 }
 
 .h1_winsley{
